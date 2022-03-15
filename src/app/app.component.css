@@ -1,0 +1,3 @@
+.is-invalid{
+   border: 2px solid rgb(#ff0000, 0, 0) !important;
+}
