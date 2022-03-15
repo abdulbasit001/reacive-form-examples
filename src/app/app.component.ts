@@ -10,8 +10,15 @@ export class AppComponent {
   title = 'form1';
   public courses = ['React', 'Angular', 'Vue'];
   constructor() {}
+  useModel = new UserComponent(
+    'Rob',
+    'rob@test.com',
+    5545545,
+    'react',
+    'morning',
+    true
+  );
   public submitForm(event: any) {
-    // console.log(userForm.value | json);
+    console.log(this.useModel);
   }
-  useModel = new UserComponent('Rob', 'rob@test.com', 5545545, 'react', 'morning', true);
 }
